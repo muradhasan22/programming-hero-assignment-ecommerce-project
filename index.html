@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nerdy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+  <style>
+   
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      height: 50px; /* Ensure the icons are square */
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%; /* Makes the icons rounded */
+      display: inline-flex; /* Aligns the icon in the center */
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    .fa-instagram {
+    background: #cf5949;
+    color: white;
+    }
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white p-6 shadow">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-[#0F0F0F]">Nerdy</h1>
+      <nav class="flex space-x-16">
+        <a href="#" class="text-[#0F0F0F]">Home</a>
+        <a href="#" class="text-[#0F0F0F]">About</a>
+        <a href="#" class="text-[#0F0F0F]">Products</a>
+        <a href="#" class="text-[#0F0F0F]">Contact</a>
+      </nav>
+      <button class="bg-[#D8FB78] text-[#0F0F0F] text-lg font-bold px-4 py-2 rounded-full">Buy Now</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-[#FFFFFF] mt-10 px-10">
+    <div class="max-w-6xl mx-auto flex items-center">
+      <div class="flex-1">
+        <h2 class="text-4xl font-bold mb-4">Designed to <br> combine style and <br> functionality.</h2>
+        <p class="text-[#09080F] mt-2">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your <br> coding skills through a diverse range of challenges for all experience levels.</p>
+        <button class="bg-[#D8FB78] text-[#0F0F0F] mt-6 px-6 py-3 bg-lime-300 text-black font-bold text-lg rounded-full">Explore Deal</button>
+      </div>
+      <div class="ml-10">
+        <img src="./images/Rectangle 17854.png" alt="Hero Image" class="rounded-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Selling Products -->
+  <section class="mt-16 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold">Best Selling Products</h2>
+      <p class="mt-4 text-gray-500 font-semibold">
+        Unlock your potential with Nerdy's Best Selling Products.A collection tailored for boosting your existing skills through a <br>
+        dynamic range of design solutions.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+
+        <!-- Product Card -->
+
+        <div class="bg-white shadow-lg rounded-2xl p-4">
+          <img
+            src="./images/model-demonstrating-winter-cloths 1.png"
+            alt="Product Image"
+            class="bg-[#F2F4F6] rounded-md mx-auto"/>
+
+          <h3 class="mt-4 text-xl font-bold">Balenciaga Floral-Print Silk Shirt</h3>
+          <p class="mt-2 text-gray-500">$1686.00</p>
+          <div class="flex flex-col items-center mt-4 gap-2">
+            <button
+              class="px-28 py-1.5 bg-lime-300 text-black font-bold text-lg rounded-full">
+              Buy Now
+            </button>
+            <div class="flex items-center space-x-4">
+              <button
+              class="px-10 py-1.5 bg-gray-100 text-black font-bold rounded-full">
+              Add to cart
+            </button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+            </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat the Product Card for other products -->
+        <div class="bg-white shadow-lg rounded-2xl p-4">
+          <img
+            src="./images/model-demonstrating-winter-cloths 1.png"
+            alt="Product Image"
+            class="bg-[#F2F4F6] rounded-md mx-auto"
+          />
+          <h3 class="mt-4 text-xl font-bold">
+            Balenciaga Floral-Print Silk Shirt
+          </h3>
+          <p class="mt-2 text-gray-500">$6523.00</p>
+          <div class="flex flex-col items-center mt-4 gap-2">
+            <button
+              class=" px-28 py-1.5 bg-lime-300 text-black font-bold text-lg rounded-full">
+              Buy Now
+            </button>
+            <div class="flex items-center space-x-4">
+              <button
+              class="px-10 py-1.5 bg-gray-100 text-black font-bold rounded-full">
+              Add to cart
+            </button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+            </svg>
+            </div>
+
+          </div>
+        </div>
+        <div class="bg-white shadow-lg rounded-2xl p-4">
+          <img
+            src="./images/model-demonstrating-winter-cloths 1.png"
+            alt="Product Image"class="bg-[#F2F4F6] rounded-md mx-auto"/>
+          <h3 class="mt-4 text-xl font-bold">
+            Balenciaga Floral-Print Silk Shirt</h3>
+          <p class="mt-2 text-gray-500">$1644.00</p>
+          <div class="flex flex-col items-center mt-4 gap-2">
+            <button
+              class="px-28 py-1.5 bg-lime-300 text-black font-bold text-lg rounded-full">
+              Buy Now
+            </button>
+            <div class="flex items-center space-x-4">
+              <button
+              class="px-10 py-1.5 bg-gray-100 flex text-black font-bold rounded-full">
+              Add to cart
+            </button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+            </svg>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+
+  <!-- Footer -->
+  <footer class="mt-16 bg-[#F2F4F6] text-center">
+    <h1 class="text-3xl py-8 font-bold">Nerdy</h1>
+    <nav class="space-x-9 text-gray-800">
+      <a href="#" class="">Home</a>
+      <a href="#" class="">Products</a>
+      <a href="#" class="">About</a>
+      <a href="#" class="">Contact</a>
+    </nav>
+
+    <div class="flex justify-center space-x-6 mt-4">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    </div>
+      <hr>
+    <div class="mt-4 py-8">
+      <input
+        type="email"
+        placeholder="Enter your email address"
+        class="px-20 py-2 border border-gray-300 rounded-full"/>
+
+      <button class="px-10 py-2 bg-lime-300 text-black font-bold rounded-full">
+        Subscribe
+      </button>
+    </div>
+  </footer>
+
+</body>
+</html>
